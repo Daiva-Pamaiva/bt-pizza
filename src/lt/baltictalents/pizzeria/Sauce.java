@@ -1,7 +1,7 @@
 package lt.baltictalents.pizzeria;
 
 enum Sauce {
-    MILD("Mild sauce is a delicate flavor and not a spicy."), SPICY("Spicy sauce is VERY HOT."), MIX("Mix sauce is delicate.");
+    MILD("Mild sauce is a delicate flavor and not a spicy."), MIX("Mix sauce is delicate."), SPICY("Spicy sauce is VERY HOT.");
 
     Sauce(String description) {
         this.description = description;
