@@ -1,0 +1,8 @@
+1##Beer##2.50
+2##Water##still##0.75
+3##Water##sparkling##1.00
+4##SoftDrink##1.50
+5##Tea##with##sugar##1.50
+6##Tea##with##honey##1.75
+7##Coffee##with##sugar##1.50
+8##Coffee##with##milk##1.75
