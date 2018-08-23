@@ -1,4 +1,8 @@
 package lt.baltictalents.pizzeria;
 
-public interface MenuItem {
+public class MenuItem {
+
+    String name;
+    double price;
+
 }

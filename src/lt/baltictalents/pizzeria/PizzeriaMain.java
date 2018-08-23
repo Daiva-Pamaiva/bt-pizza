@@ -10,59 +10,75 @@ class PizzeriaMain {
         Box<PizzeriaMain, Sauce> box = new Box<>(pizza, Sauce.MIX);
         box.showContents();
 
-        String[] menuItemNames = new String[16];
-        double[] menuItemPrices = new double[16];
+        MenuItem[] menu = new MenuItem[16];
 
-        menuItemNames[0] = "Beer";
-        menuItemPrices[0] = 2.50;
 
-        menuItemNames[1] = "Water still";
-        menuItemPrices[1] = 0.75;
+        menu[0] = new MenuItem();
+        menu[0].name = "Beer";
+        menu[0].price = 2.50;
 
-        menuItemNames[2] = "Water sparkling";
-        menuItemPrices[2] = 1.00;
+        menu[1] = new MenuItem();
+        menu[1].name = "Water still";
+        menu[1].price = 0.75;
 
-        menuItemNames[3] = "Soft drink";
-        menuItemPrices[3] = 1.50;
+        menu[2] = new MenuItem();
+        menu[2].name = "Water sparkling";
+        menu[2].price = 1.00;
 
-        menuItemNames[4] = "Tea with sugar";
-        menuItemPrices[4] = 1.50;
+        menu[3] = new MenuItem();
+        menu[3].name = "Soft drink";
+        menu[3].price = 1.50;
 
-        menuItemNames[5] = "Tea with honey";
-        menuItemPrices[5] = 1.75;
+        menu[4] = new MenuItem();
+        menu[4].name = "Tea with sugar";
+        menu[4].price = 1.50;
 
-        menuItemNames[6] = "Coffee with sugar";
-        menuItemPrices[6] = 1.50;
+        menu[5] = new MenuItem();
+        menu[5].name = "Tea with honey";
+        menu[5].price = 1.75;
 
-        menuItemNames[7] = "Coffee with milk";
-        menuItemPrices[7] = 1.75;
+        menu[6] = new MenuItem();
+        menu[6].name = "Coffee with sugar";
+        menu[6].price = 1.50;
 
-        menuItemNames[8] = "Pizza Vegetariano";
-        menuItemPrices[8] = 6.50;
+        menu[7] = new MenuItem();
+        menu[7].name = "Coffee with milk";
+        menu[7].price = 1.75;
 
-        menuItemNames[9] = "Pizza Summer";
-        menuItemPrices[9] = 6.50;
+        menu[8] = new MenuItem();
+        menu[8].name = "Pizza Vegetariano";
+        menu[8].price = 6.50;
 
-        menuItemNames[10] = "Pizza Evening";
-        menuItemPrices[10] = 6.70;
+        menu[9] = new MenuItem();
+        menu[9].name = "Pizza Summer";
+        menu[9].price = 6.50;
 
-        menuItemNames[11] = "Pizza EveningStar";
-        menuItemPrices[11] = 6.90;
+        menu[10] = new MenuItem();
+        menu[10].name = "Pizza Evening";
+        menu[10].price = 6.70;
 
-        menuItemNames[12] = "Pizza Starter";
-        menuItemPrices[12] = 6.50;
+        menu[11] = new MenuItem();
+        menu[11].name = "Pizza EveningStar";
+        menu[11].price = 6.90;
 
-        menuItemNames[13] = "Pizza Sunrise";
-        menuItemPrices[13] = 6.95;
+        menu[12] = new MenuItem();
+        menu[12].name = "Pizza Starter";
+        menu[12].price = 6.50;
 
-        menuItemNames[14] = "Pizza Later";
-        menuItemPrices[14] = 6.95;
+        menu[13] = new MenuItem();
+        menu[13].name = "Pizza Sunrise";
+        menu[13].price = 6.95;
 
-        menuItemNames[15] = "Pizza EarlyMoarning";
-        menuItemPrices[15] = 6.95;
+        menu[14] = new MenuItem();
+        menu[14].name = "Pizza Later";
+        menu[14].price = 6.95;
 
-        for (int i = 0; i < menuItemNames.length; i++) {
-            System.out.println(menuItemNames[i] + " - " + menuItemPrices[i]);
+        menu[15] = new MenuItem();
+        menu[15].name = "Pizza EarlyMoarning";
+        menu[15].price = 6.95;
+
+        for (int i = 0; i < menu.length; i++) {
+            System.out.println(menu[i].name + " - " + menu[i].price);
         }
 
     }
