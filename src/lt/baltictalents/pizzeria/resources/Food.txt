@@ -1,8 +1,8 @@
-1##Pizza##Vegetariano##6.50
+1##Pizza##Vegetarian##6.50
 2##Pizza##Summer##6.50
 3##Pizza##Evening##6.70
 4##Pizza##EveningStar##6.90
 5##Pizza##Starter##6.50
 6##Pizza##Sunrise##6.95
 7##Pizza##Later##6.95
-8##Pizza##EarlyMoarning##6.95
+8##Pizza##EarlyMorning##6.95

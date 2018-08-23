@@ -46,7 +46,7 @@ class PizzeriaMain {
         menu[7].price = 1.75;
 
         menu[8] = new MenuItem();
-        menu[8].name = "Pizza Vegetariano";
+        menu[8].name = "Pizza Vegetarian";
         menu[8].price = 6.50;
 
         menu[9] = new MenuItem();
@@ -74,7 +74,7 @@ class PizzeriaMain {
         menu[14].price = 6.95;
 
         menu[15] = new MenuItem();
-        menu[15].name = "Pizza EarlyMoarning";
+        menu[15].name = "Pizza EarlyMorning";
         menu[15].price = 6.95;
 
         for (int i = 0; i < menu.length; i++) {
