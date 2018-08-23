@@ -1,9 +1,6 @@
 package lt.baltictalents.pizzeria;
 
 class PizzeriaMain {
-    public PizzeriaMain(String s) {
-
-    }
 
     public static void main(String[] args) {
         PizzeriaMain pizza = new PizzeriaMain("");
